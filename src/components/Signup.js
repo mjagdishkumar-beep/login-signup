@@ -59,7 +59,7 @@ const Signup = () => {
             alert("Password should be less then four characters")
         } else if (confirmp === "") {
             alert("Required Field")
-        }else if (!confirmp && password.length) {
+        }else if (password != confirmp) {
              alert("Password doesn't match")
         }else{
             console.log("Thank you for signing up with us");

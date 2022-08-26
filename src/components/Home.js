@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from 'react'
-
+import React, { useState, useEffect } from "react";
 
 const Home = () => {
 
@@ -15,9 +14,10 @@ const Home = () => {
 
 
   return (
-    <div>
-        <h1>User Details</h1>
-        <h1>{logindata[0].firstname}</h1>
+    <div className="mt-3 d-flex justify-content-center">
+        <h1>Logged in succesfully</h1>
+        <h1>Hi {logindata[0].firstname}</h1>
+        <h1>{logindata[0].email} is your mail id</h1>
     </div>
   )
 }

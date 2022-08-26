@@ -78,7 +78,7 @@ const Login = () => {
                                 <Form.Label>Password</Form.Label>
                                 <Form.Control type="password" name='password' onChange={getdata} placeholder="Enter Password" />
                             </Form.Group>
-                            <Form.Group className="mb-3" controlId="formBasicCheckbox">
+                            <Form.Group className="mb-3" controlId="rememberme">
                                 <Form.Check type="checkbox" label="Remember Me" />
                             </Form.Group>
                             <Button variant="primary" type="submit" onClick={addData}>
